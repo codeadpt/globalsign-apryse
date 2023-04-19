@@ -1,0 +1,1 @@
+docker exec -it nodesandbox_node "$@"

@@ -1,0 +1,12 @@
+ARG NODE_VERSION
+
+FROM node:${NODE_VERSION}-bullseye-slim
+
+RUN ln -s /usr/lib/x86_64-linux-musl/libc.so /lib/libc.musl-x86_64.so.1
+
+WORKDIR /app
+
+RUN mkdir -p /app/node_modules
+RUN chown -R node:node /app/node_modules
+
+USER node

@@ -3,6 +3,8 @@ const fs = require('fs');
 const https = require('https');
 const axios = require('axios');
 
+/***** START CONFIG *****/
+
 const pathToCert = '/app/trust/globalsign.pem';
 const pathToKey = '/app/trust/globalsign.key';
 const keyPassPhrase = 'K2c3Tro8A8WN87Sf';
@@ -12,6 +14,8 @@ const pathToAatlCert = '/app/trust/aatl.crt';
 
 const pathToSourceDoc = '/app/sample.pdf';
 const pathToFinalDoc = '/app/sample-signed.pdf';
+
+/***** END CONFIG *****/
 
 const main = async () => {
 

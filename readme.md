@@ -8,6 +8,8 @@ Install dependencies:
 
 `./node.sh npm install`
 
+Edit index.js and configure the paths
+
 Run script:
 
 `./node.sh node index.js`
@@ -17,6 +19,8 @@ Run script:
 Install dependencies:
 
 `npm install`
+
+Edit index.js and configure the paths
 
 Run script:
 
